@@ -1,11 +1,11 @@
-// DAY 1
+// DAY 1:
 function factorial(n) {
     if (n == 1) {
         return n
     }
     return n * factorial(n - 1)
 }
-// DAY 2
+// DAY 2:
 function gcd(n1, n2, i = Math.ceil(n1 > n2 ? n1 : n2)) {
     if (n1 % i == 0 && n2 % i == 0) {
         return i
@@ -19,4 +19,13 @@ function gcd(n1, n2) {
         return n1
     }
     return gcd(n2, n1 % n2)
+}
+
+// DAY 3:
+function range(x, y, arr = []) {
+    arr.push(x + 1)
+    if (x == y - 2) {
+        return arr
+    }
+    return range(x + 1, y, arr)
 }
