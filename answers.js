@@ -29,3 +29,14 @@ function range(x, y, arr = []) {
     }
     return range(x + 1, y, arr)
 }
+
+// DAY 3 Refactor:
+function range(x, y) {
+    if (x == y - 2) {
+        return [y - 1]
+    }
+
+    var arr = range(x, y - 1)
+    arr.push(y - 1)
+    return arr
+}
