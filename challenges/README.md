@@ -32,3 +32,12 @@ Expected Output : 21
 Example : `num` = 8, `exp` = 2
 Expected Output : 64
 ```
+
+---
+## DAY 6:
+- Write a recursive JavaScript function to get the first n Fibonacci numbers.
+
+```
+Example : `n` = 6
+Expected Output : [ 0, 1, 1, 2, 3, 5]
+```
