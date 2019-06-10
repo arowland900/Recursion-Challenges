@@ -40,3 +40,13 @@ function range(x, y) {
     arr.push(y - 1)
     return arr
 }
+
+// DAY 4:
+function sum(arr) {
+    if (arr.length) {
+        return arr.pop() + sum(arr)
+    }
+    else {
+        return 0
+    }
+}
