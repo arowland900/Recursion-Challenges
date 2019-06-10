@@ -25,3 +25,10 @@ Expected Output : 21
 ```
 
 ---
+## DAY 5:
+- Write a recursive JavaScript function that takes in two arguments: a number `num`, and an exponent `exp`.  The function should return `num` to the power of `exp`.
+
+```
+Example : `num` = 8, `exp` = 2
+Expected Output : 64
+```
