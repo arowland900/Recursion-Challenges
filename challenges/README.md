@@ -53,4 +53,9 @@ Expected Output : true
 
 ---
 ## DAY 8:
-- Write a recursive JavaScript function for binary search.
+- Write a recursive JavaScript function for binary search. If the number in question is found, return its index in the array. If not, return `-1`
+
+```
+Example : `n` = 6, `arr` = [1,2,5,6,9]
+Expected Output : 3
+```
