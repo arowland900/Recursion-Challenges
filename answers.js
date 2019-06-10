@@ -45,8 +45,16 @@ function range(x, y) {
 function sum(arr) {
     if (arr.length) {
         return arr.pop() + sum(arr)
-    }
-    else {
+    } else {
         return 0
+    }
+}
+
+// DAY 5:
+function e(num, exp){
+    if(exp > 0){
+        return num * e(num, exp-1)
+    } else {
+        return 1
     }
 }
