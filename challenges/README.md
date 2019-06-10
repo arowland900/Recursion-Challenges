@@ -50,3 +50,7 @@ Expected Output : [ 0, 1, 1, 2, 3, 5]
 Example : `n` = 6
 Expected Output : true
 ```
+
+---
+## DAY 8:
+- Write a recursive JavaScript function for binary search.
