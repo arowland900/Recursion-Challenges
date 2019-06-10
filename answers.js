@@ -51,10 +51,23 @@ function sum(arr) {
 }
 
 // DAY 5:
-function e(num, exp){
-    if(exp > 0){
-        return num * e(num, exp-1)
+function e(num, exp) {
+    if (exp > 0) {
+        return num * e(num, exp - 1)
     } else {
         return 1
     }
+}
+
+// DAY 6:
+function fibo(n) {
+    if (n < 2) {
+        return [0]
+    }
+    if (n == 2) {
+        return [0, 1]
+    }
+    var arr = fibo(n - 1)
+    arr.push((arr[n - 2] + arr[n - 3]))
+    return arr
 }
