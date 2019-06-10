@@ -41,3 +41,12 @@ Expected Output : 64
 Example : `n` = 6
 Expected Output : [ 0, 1, 1, 2, 3, 5]
 ```
+
+---
+## DAY 7: 
+- Write a recursive JavaScript function to check whether or not a number is even
+
+```
+Example : `n` = 6
+Expected Output : true
+```
