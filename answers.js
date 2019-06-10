@@ -81,3 +81,19 @@ function even(n) {
     }
     return even(n % 2)
 }
+
+// DAY 8:
+Array.prototype.binSearch = function (n, c = 0) {
+    var m = Math.floor((this.length) / 2)
+    if (this[m] == n) {
+        return m + c
+    }
+    if (this.length == 1 && this[m] != n) {
+        return -1
+    }
+    if (n < this[m]) {
+        return this.slice(0, m).binSearch(n, c = c)
+    } else {
+        return this.slice(m, this.length).binSearch(n, c += m)
+    }
+}
