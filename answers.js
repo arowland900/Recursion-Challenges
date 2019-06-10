@@ -71,3 +71,13 @@ function fibo(n) {
     arr.push((arr[n - 2] + arr[n - 3]))
     return arr
 }
+// DAY 7:
+function even(n) {
+    if (!n) {
+        return true
+    }
+    if (n == 1) {
+        return false
+    }
+    return even(n % 2)
+}
